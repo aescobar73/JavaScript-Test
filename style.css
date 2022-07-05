@@ -1,0 +1,21 @@
+body {
+
+    background-color: blueviolet;
+    
+}
+
+h1 {
+
+    text-align: center;
+    color: orange;
+}
+
+.container {
+
+    background-color: blue;
+    margin: 60px auto;
+    padding: 20px;
+    border: 2px;
+    width: 60vw;
+    display: block;
+}
