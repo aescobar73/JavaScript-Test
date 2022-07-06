@@ -2,6 +2,7 @@ body {
 
     background-color: blueviolet;
     
+    
 }
 
 h1 {
@@ -11,11 +12,47 @@ h1 {
 }
 
 .container {
-
+    
     background-color: blue;
     margin: 60px auto;
     padding: 20px;
     border: 2px;
+    border-radius: 2%;
     width: 60vw;
     display: block;
+
 }
+
+ul {
+
+    list-style-type: none;
+}
+
+.button {
+    border-radius: 5%;
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+}
+
+ #nxtbtn {
+
+    border-radius: 5%;
+    margin: 60px;
+    padding: 15px;
+    float: right;
+    
+    /* have to make that appear after answering the question */
+ }
+
+ .hide {
+
+    display: none;
+ }
+
+ #yay {
+
+    color: yellow;
+    font-weight: bolder;
+
+ }
