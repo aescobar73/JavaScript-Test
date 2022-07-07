@@ -34,6 +34,39 @@ h1 {
     display: block;
 }
 
+.container3 {
+
+    background-color: blue;
+    margin: 60px auto;
+    padding: 20px;
+    border: 2px;
+    border-radius: 2%;
+    width: 60vw;
+    display: block;
+}
+
+.container4 {
+
+    background-color: blue;
+    margin: 60px auto;
+    padding: 20px;
+    border: 2px;
+    border-radius: 2%;
+    width: 60vw;
+    display: block;
+}
+
+.container5 {
+
+    background-color: blue;
+    margin: 60px auto;
+    padding: 20px;
+    border: 2px;
+    border-radius: 2%;
+    width: 60vw;
+    display: block;
+}
+
 ul {
 
     list-style-type: none;
@@ -53,8 +86,40 @@ ul {
     padding: 15px;
     float: right;
     
-    /* have to make that appear after answering the question */
  }
+
+ #nxtbtn2 {
+
+    border-radius: 5%;
+    margin: 60px;
+    padding: 15px;
+    float: right;
+ }
+
+ #nxtbtn3 {
+
+    border-radius: 5%;
+    margin: 60px;
+    padding: 15px;
+    float: right;
+ }
+
+ #nxtbtn4 {
+
+    border-radius: 5%;
+    margin: 60px;
+    padding: 15px;
+    float: right;
+ }
+
+ #nxtbtn5 {
+
+    border-radius: 5%;
+    margin: 60px;
+    padding: 15px;
+    float: right;
+ }
+
 
  .hide {
 
@@ -66,12 +131,42 @@ ul {
     display: none;
  }
 
+ .hide3 {
+
+    display: none;
+ }
+
+ .hide4 {
+
+    display: none;
+ }
+
+ .hide5 {
+
+    display: none;
+ }
+
  .hidedos {
 
     display: none;
  }
 
- 
+ .hidetres { 
+
+    display: none;
+ }
+
+ .hidecuatro {
+
+    display: none;
+ }
+
+ .hidecinco {
+
+    display: none;
+ }
+
+
  #yay {
 
     color: yellow;
@@ -80,6 +175,24 @@ ul {
  }
 
  #yay2 {
+
+    color: yellow;
+    font-weight: bolder;
+ }
+
+ #yay3 {
+
+    color: yellow;
+    font-weight: bolder;
+ }
+
+ #yay4 {
+
+    color: yellow;
+    font-weight: bolder;
+ }
+
+ #yay5 {
 
     color: yellow;
     font-weight: bolder;
