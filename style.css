@@ -23,6 +23,17 @@ h1 {
 
 }
 
+.container2 {
+
+    background-color: blue;
+    margin: 60px auto;
+    padding: 20px;
+    border: 2px;
+    border-radius: 2%;
+    width: 60vw;
+    display: block;
+}
+
 ul {
 
     list-style-type: none;
@@ -50,9 +61,26 @@ ul {
     display: none;
  }
 
+ .hide2 {
+
+    display: none;
+ }
+
+ .hidedos {
+
+    display: none;
+ }
+
+ 
  #yay {
 
     color: yellow;
     font-weight: bolder;
 
+ }
+
+ #yay2 {
+
+    color: yellow;
+    font-weight: bolder;
  }
