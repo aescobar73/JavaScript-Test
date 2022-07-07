@@ -11,6 +11,13 @@ h1 {
     color: orange;
 }
 
+.time {
+
+    text-align: right;
+    font-size: large;
+    color: orange;
+}
+
 .container {
     
     background-color: blue;
@@ -57,6 +64,17 @@ h1 {
 }
 
 .container5 {
+
+    background-color: blue;
+    margin: 60px auto;
+    padding: 20px;
+    border: 2px;
+    border-radius: 2%;
+    width: 60vw;
+    display: block;
+}
+
+.container6 {
 
     background-color: blue;
     margin: 60px auto;
@@ -120,6 +138,13 @@ ul {
     float: right;
  }
 
+ #nxtbtn6 {
+
+    border-radius: 5%;
+    margin: 60px;
+    padding: 15px;
+    
+ }
 
  .hide {
 
@@ -142,6 +167,11 @@ ul {
  }
 
  .hide5 {
+
+    display: none;
+ }
+
+ .hide6 {
 
     display: none;
  }
@@ -197,3 +227,10 @@ ul {
     color: yellow;
     font-weight: bolder;
  }
+
+ .nombre {
+
+    color: yellow;
+    font-weight: bolder;
+ }
+ 

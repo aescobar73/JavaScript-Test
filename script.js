@@ -1,4 +1,30 @@
-// var startGame = confirm("Do you want to play a game?"); 
+var startGame = confirm("Do you want to play a game?"); 
+// timer start 30 seconds
+var timer = document.querySelector('.time');
+
+var secondsLeft = 30;
+
+function setTime() {
+    var countDown = setInterval(function() {
+        secondsLeft--;
+        timer.textContent = secondsLeft + " seconds "
+    if(secondsLeft === 0) {
+        clearInterval(countDown);
+        sendMessage()
+    }
+    
+    }, 1000)
+    console.log('countDown', countDown)
+}
+
+function sendMessage(){
+    timer.textContent = " Game Over ";
+    
+    
+}
+
+setTime()
+
 
 
 var message = "You are correct!"
@@ -173,3 +199,15 @@ answerButton5.addEventListener("click", function() {
 
  })
 
+
+//  when finish button is clicked, it hides question 5, and then has a prompt come up that allows you to enter you name and then it 
+// show back on the screen
+var finalInput = document.querySelector('.container6');
+var question5 = document.querySelector('.container5');
+var showButton6 = document.querySelector('#nxtbtn5');
+
+
+showButton6.addEventListener('click', function() {
+    finalInput.classList.remove('hide6')
+    document.querySelector('.container5').style.display = 'none'
+})
