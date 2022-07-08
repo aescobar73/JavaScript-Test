@@ -35,3 +35,9 @@ Question prompt;
 Finish game;
 
 ![getting started](./images/end.jpg)
+
+
+
+Live URL:
+
+https://aescobar73.github.io/JavaScript-Test/
