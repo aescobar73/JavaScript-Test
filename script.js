@@ -29,7 +29,8 @@ setTime()
 
 var message = "You are correct!"
 var wrongMessage = "Incorrect"
-var answerButton = document.querySelector('#right');
+var answerCorrectButton = document.querySelector('#right');
+var answerWrongButton = document.querySelector('.incorrect');
 var showNext = document.querySelector('#nxtbtn')
 var getText = document.querySelector('#yay')
 var wrongText = document.querySelector('#nay')
@@ -43,7 +44,7 @@ function setWrongText () {
     wrongText.textContent = wrongMessage;
 }
 
-answerButton.addEventListener("click", function() {
+answerCorrectButton.addEventListener("click", function() {
     if (answerOne) {
         console.log('You are correct');
         setCorrectText();
@@ -56,6 +57,14 @@ answerButton.addEventListener("click", function() {
 
 
 })
+
+answerWrongButton.addEventListener("click", setWrongText)
+
+// answerWrongButton.addEventListener('click', function() {
+    
+//     setWrongText();
+// }
+// )
 
 // *second question consist of the same thing as the top, with variables changed. Before we do that://
  // we need the next button to have an evenet listener, so that when click it runs the function of hiding question 1, and showing question 2
@@ -205,9 +214,11 @@ answerButton5.addEventListener("click", function() {
 var finalInput = document.querySelector('.container6');
 var question5 = document.querySelector('.container5');
 var showButton6 = document.querySelector('#nxtbtn5');
-
+var score = document.querySelector('#highscore');
 
 showButton6.addEventListener('click', function() {
     finalInput.classList.remove('hide6')
     document.querySelector('.container5').style.display = 'none'
 })
+
+

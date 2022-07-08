@@ -16,13 +16,13 @@
 <div id="ending"></div>
 
     <div class="container">
-        <h2 class="question">This will be the first question?</h2>
+        <h2 class="question">What is the type of variable that can hold more than one value?</h2>
         <ul>
 
-            <li><button class="button">Answer1 </button></li>
-            <li><button class="button" id="right">Answer2</button></li>
-            <li><button class="button">Answer3</button></li>
-            <li><button class="button">Answer4</button></li>
+            <li><button class="button incorrect">Boolean</button></li>
+            <li><button class="button" id="right">Array</button></li>
+            <li><button class="button incorrect">Variable</button></li>
+            <li><button class="button incorrect">Body</button></li>
         </ul>
 
 
@@ -35,13 +35,13 @@
     </div>
 
     <div class="container2 hide2">
-        <h2 class="question2">This will be the second question?</h2>
+        <h2 class="question2">Which operating symbol is used to give us the remainder between two numbers?</h2>
         <ul>
 
-            <li><button class="button">Answer1 </button></li>
-            <li><button class="button" id="right2">Answer2</button></li>
-            <li><button class="button">Answer3</button></li>
-            <li><button class="button">Answer4</button></li>
+            <li><button class="button">$</button></li>
+            <li><button class="button">+</button></li>
+            <li><button class="button" id="right2">%</button></li>
+            <li><button class="button">/</button></li>
         </ul>
 
         <button id="nxtbtn2" class="hidedos">Next</button>
@@ -54,13 +54,13 @@
    </div>
 
    <div class="container3 hide3">
-    <h2 class="question3">This will be the third question?</h2>
+    <h2 class="question3">What is used to connect two or more expressions and return a "True" or "False" answer?</h2>
     <ul>
 
-        <li><button class="button">Answer1 </button></li>
-        <li><button class="button">Answer2</button></li>
-        <li><button class="button" id="right3" >Answer3</button></li>
-        <li><button class="button">Answer4</button></li>
+        <li><button class="button">Variables </button></li>
+        <li><button class="button">Arrays</button></li>
+        <li><button class="button">Functions</button></li>
+        <li><button class="button" id="right3">Logical Operators</button></li>
     </ul>
 
     <button id="nxtbtn3" class="hidetres">Next</button>
@@ -73,13 +73,13 @@
 </div>
 
 <div class="container4 hide4">
-    <h2 class="question3">This will be the fourth question?</h2>
+    <h2 class="question3">What method is used to iterate over arrays?</h2>
     <ul>
 
-        <li><button class="button">Answer1 </button></li>
-        <li><button class="button">Answer2</button></li>
-        <li><button class="button" id="right4" >Answer3</button></li>
-        <li><button class="button">Answer4</button></li>
+        <li><button class="button" id="right4">For-loop</button></li>
+        <li><button class="button">Conditional-Statements</button></li>
+        <li><button class="button">Object Methods</button></li>
+        <li><button class="button">Logical Operators</button></li>
     </ul>
 
     <button id="nxtbtn4" class="hidecuatro">Next</button>
@@ -92,13 +92,13 @@
 </div>
 
 <div class="container5 hide5">
-    <h2 class="question3">This will be the fifth question?</h2>
+    <h2 class="question3">A variable that is only avaible to a certain function is called:</h2>
     <ul>
 
-        <li><button class="button">Answer1 </button></li>
-        <li><button class="button">Answer2</button></li>
-        <li><button class="button" id="right5" >Answer3</button></li>
-        <li><button class="button">Answer4</button></li>
+        <li><button class="button">Global Scope </button></li>
+        <li><button class="button">Object</button></li>
+        <li><button class="button" id="right5" >Local Scope</button></li>
+        <li><button class="button">Local Storage</button></li>
     </ul>
 
     <button id="nxtbtn5" class="hidecinco">Finish</button>
@@ -110,14 +110,16 @@
 
 </div>
 
-<div class="container6 hide6">
+<form class="container6 hide6">
 
     <label class="nombre" for="info">Enter your name</label>
     <br>
-    <textarea id="info"></textarea>
-    <button id="nxtbtn6">Save</button>
+    <input type="text" placeholder="Enter Name" name="firstlast" id="info"></input>
+    <!-- <button id="nxtbtn6" placeholder="Enter Name" name="firstlast">Save</button> -->
 
-</div>    
+</form>    
+
+<ul id="highscore"></ul>
 
     <script src="script.js"></script>
 </body>
